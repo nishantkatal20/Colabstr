@@ -1,0 +1,124 @@
+body {
+    background-color: #E5d8f0; /* Lavender background color */
+    color: #333; /* Dark gray text color on white background */
+    font-family: Arial, sans-serif;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        max-width: 1200px;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    
+    .content {
+        flex: 1;
+        background-color: #b993d6;
+        /* White background for content section */
+        padding: 20px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+    
+    .doctor-info {
+        display: flex;
+        align-items: center;
+        background-color: #b993d6; /* Lavender color */
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+        margin-bottom: 50px;
+      }
+      
+      .doctor-info img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 20px;
+      }
+      
+      .info-box {
+        flex: 1;
+      }
+      
+      .info-box h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      
+      .info-box p {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+    
+    .box-container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    .box {
+    flex: 1 0 48%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    }
+    
+    .box img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    }
+    
+    .box h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    
+    .box p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    }
+    
+    .doctor-info {
+    background-color: #b993d6;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    
+    .doctor-info p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    }
+
+    .additional-box {
+flex: 1 0 100%;
+background-color: #FFFFFF;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+margin-bottom: 20px;
+text-align: center;
+}
+
+.additional-box h3 {
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 10px;
+}
